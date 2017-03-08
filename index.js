@@ -31,6 +31,7 @@ function metalsmithInspectFiles() {
 
                 current = nextNode;
             }
+            current = root;
         });
 
         function print(node, prefix, parentIsLast){
