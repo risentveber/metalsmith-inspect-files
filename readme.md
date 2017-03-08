@@ -4,7 +4,7 @@
 This is metalsmith plugin that prints files tree in selected build step.
 
 Example with printing build result:
-```ecmascript 6
+```javascript
 const Metalsmith = require('metalsmith');
 const metalsmithInspectFiles = require('metalsmith-inspect-files');
 
