@@ -1,0 +1,26 @@
+{
+  "name": "metalsmith-inspect-files",
+  "version": "1.0.0",
+  "description": "Metalsmith plugin that prints files tree in selected build step",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/risentveber/metalsmith-inspect-files.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "inspect",
+    "filetree",
+    "files",
+    "debug"
+  ],
+  "author": "Risent Veber <risentveber@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/risentveber/metalsmith-inspect-files/issues"
+  },
+  "homepage": "https://github.com/risentveber/metalsmith-inspect-files#readme"
+}
