@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-inspect-files",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Metalsmith plugin that prints files tree in selected build step",
   "main": "index.js",
   "engines" : { "node" : ">=6.7.0" },

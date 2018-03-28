@@ -35,7 +35,9 @@ function metalsmithInspectFiles() {
         });
 
         function print(node, prefix, parentIsLast){
-            process.stdout.write(prefix.join('') + node.name + '\n');
+            process.stdout.write(
+                prefix.map((e, i) => (e === '  |-' && i !== prefix.length - 1) ? '  | ' : e).join('') + node.name + '\n'
+            );
             const children = node.nodes.concat(node.lists);
 
             if (children.length) {
@@ -60,7 +62,7 @@ function metalsmithInspectFiles() {
         process.stdout.write('\x1b[0m');
 
         done();
-    }
+    };
 }
 
 module.exports = metalsmithInspectFiles;
